@@ -1,5 +1,5 @@
 class AddTwo {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
 
         // Parse command-line arguments
         int x = Integer.parseInt(args[0]);

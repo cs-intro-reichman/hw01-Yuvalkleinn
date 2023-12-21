@@ -1,5 +1,5 @@
 class Coins {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
 
         // Parse command-line argument
         int coins = Integer.parseInt(args[0]);

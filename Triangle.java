@@ -1,5 +1,6 @@
 class Triangle {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
+        
         // parse command-line args
         int side1 = Integer.parseInt(args[0]);
         int side2 = Integer.parseInt(args[1]);

@@ -1,7 +1,7 @@
 import java.util.Random;
 
 class GenThree {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
 
         // Parse command-line args
         int num1 = Integer.parseInt(args[0]);
