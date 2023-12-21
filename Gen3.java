@@ -14,6 +14,9 @@ class Gen3 {
         int random3 = random.nextInt(Math.max(num1, num2) - Math.min(num1, num2)) + Math.min(num1, num2);
 
         // Print the generated random numbers and the minimal number
-        System.out.println(random1 + "\n" + random2 + "\n" + random3 + "\n" + "The minimal generated number was " + Math.min(Math.min(random1, random2), random3));
+        System.out.println(random1);
+        System.out.println(random2);
+        System.out.println(random3);
+        System.out.println("The minimal generated number was " + Math.min(Math.min(random1, random2), random3));
     }
 }
