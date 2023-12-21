@@ -8,10 +8,10 @@ class LinearEq {
         double c = Double.parseDouble(args[2]);
 
         // Solve the linear equation
-        x = (c-b)/a;
+        x = (c - b) / a;
 
         // Print the equation and the solution
         System.out.println(a + " * " + "x " + "+ " + b + " = " + c);
-        System.out.println("X" + " = " + x);
+        System.out.println("x" + " = " + x);
     }
 }

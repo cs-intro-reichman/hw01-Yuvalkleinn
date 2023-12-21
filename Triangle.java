@@ -10,6 +10,6 @@ class Triangle {
         boolean check_if_triangle = (side1 + side2 > side3) && (side2 + side3 > side1) && (side3 + side1 > side2);
 
         // print the sides and the result
-        System.out.println (side1 + ", " + side2 + ", " + side3 + " " + check_if_triangle);
+        System.out.println (side1 + ", " + side2 + ", " + side3 + ": " + check_if_triangle);
     }
 }
