@@ -1,6 +1,6 @@
 import java.util.Random;
 
-class Gen3 {
+class GenThreeTest {
     public static void main(String [] args) {
 
         // Parse command-line args
